@@ -1,0 +1,81 @@
+body {
+    background: linear-gradient(to right, #4e54c8, #8f94fb);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: auto;
+    padding: 30px;
+    background-color: rgba(0, 0, 50, 0.3);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .mode-select button {
+    background-color: #00d2ff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1rem;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .mode-select button:hover {
+    background-color: #0077b6;
+  }
+  
+  .board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px;
+    justify-content: center;
+    margin: 30px 0;
+  }
+  
+  .cell {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    color: black;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .status {
+    font-size: 1.5rem;
+    margin: 20px 0;
+  }
+  
+  .reset-btn {
+    background-color: #ff4d6d;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .reset-btn:hover {
+    background-color: #d90429;
+  }
+  
